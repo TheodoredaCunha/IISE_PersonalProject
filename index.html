@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+
+    <body>
+        <ul id="navbar">
+            <li id="option0" onclick="change(0)">HTML</li>
+            <li id="option1" onclick="change(1)">CSS</li>
+            <li id="option2" onclick="change(2)"> JavaScript</li>
+            <li id="fullscreen_option" onclick="fullscreen()"> FULLSCREEN</li>
+            <h2 id="iframe_title">Executed Code:</h2>
+        </ul></br>
+        <textarea id="textarea" onkeydown="enterTab(event)"  onload="change(0)" onclick="refocus()"cols=100 rows=45>html</textarea>
+        <iframe id="html_display" onclick="codeFocus()" width=600></iframe></br>
+        <button onclick="run_code()">RUN CODE</button>
+        
+    </body>
+
+
+
+    <!--HTML CSS JAVASCRIPT-->
+    <code  id="code0" hidden>html</code>
+
+    <code id="code1" hidden>css</code>
+
+    <code id="code2" hidden>javascript</code>
+
+</html>

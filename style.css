@@ -1,0 +1,50 @@
+#option0{
+    background-color: lightskyblue;
+}
+#textarea{
+    border: black 2px solid;
+    font-size: 15px;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: "Courier New";
+}
+
+#html_display{
+    float: right;
+    border: black 2px solid;
+    position: absolute;
+    right: 5px;
+    z-index: 2;
+    height: 85%;
+    background-color: white;
+}
+
+ul{
+    background-color: #b6d2e3;
+    padding: 25px;
+    top: 0px;
+}
+
+li{
+    display: inline;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+    border: black 2px solid;
+    transition: background-color, 0.5s;
+}
+
+li:hover{
+    background-color: lightsteelblue;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;    
+}
+
+h2{
+    margin-left: 1000px;
+    display: inline;
+}
